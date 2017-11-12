@@ -27,6 +27,7 @@ Rails.application.configure do
     password: "Dydqja123"
   }
 
+
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
