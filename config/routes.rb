@@ -13,7 +13,7 @@ Rails.application.routes.draw do
 
   get 'main/intro'
 
-  get 'main/timecapsule'
+  get 'main/timecapsule' => 'main#timecapsule'
 
   get 'main/userdiary'
 
